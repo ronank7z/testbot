@@ -15,5 +15,8 @@ def commit(username, repos):
 res = user_info('ronank7z')
 count_commit = len(commit('ronank7z','testbot'))
 
+count = count_commit
+
 print(res['login'])
+count += count_commit
 print(count_commit)
